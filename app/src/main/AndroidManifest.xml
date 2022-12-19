@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartkisanapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Smartkisanapp">
+        <activity
+            android:name=".profilepage"
+            android:exported="false"
+            android:label="Profile"
+            android:parentActivityName=".HomePage"/>
+        <activity
+            android:name=".Cow_buy_button"
+            android:exported="false"
+            android:label="Cow"
+            android:parentActivityName=".BuyActivity2" />
+        <activity
+            android:name=".BuyActivity2"
+            android:exported="false"
+            android:label="Buy"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".signin_page"
+            android:exported="false"
+            android:label="Sign in"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".buffalopage"
+            android:exported="false"
+            android:label="Buffalo"
+            android:parentActivityName=".addtasks" />
+        <activity
+            android:name=".goatpage"
+            android:exported="false"
+            android:label="Goat"
+            android:parentActivityName=".addtasks" />
+        <activity
+            android:name=".horsepage"
+            android:exported="false"
+            android:label="Horse"
+            android:parentActivityName=".addtasks" />
+        <activity
+            android:name=".croppage"
+            android:exported="false"
+            android:label="Crops"
+            android:parentActivityName=".addtasks" />
+        <activity
+            android:name=".machinary"
+            android:exported="false"
+            android:label="Machinary"
+            android:parentActivityName=".addtasks" />
+        <activity
+            android:name=".cattlepage"
+            android:exported="false"
+            android:label="Cattles"
+            android:parentActivityName=".addtasks" />
+        <activity
+            android:name=".addtasks"
+            android:exported="false"
+            android:label="Selling Tab"
+            android:parentActivityName=".HomePage" />
+        <activity
+            android:name=".HomePage"
+            android:exported="false"
+            android:label="Home Page"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

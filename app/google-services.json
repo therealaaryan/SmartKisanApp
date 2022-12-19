@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "326281737316",
+    "project_id": "smartkisanapp",
+    "storage_bucket": "smartkisanapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326281737316:android:08f9e25082034a1fbe1b71",
+        "android_client_info": {
+          "package_name": "com.example.smartkisanapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326281737316-r2meqfke22hovgmsl440upg9rsc5pdik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5FxeIBS3FPz2APM8toxK-Kx8gFrPRMko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326281737316-r2meqfke22hovgmsl440upg9rsc5pdik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
